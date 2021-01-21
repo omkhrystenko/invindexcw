@@ -1,0 +1,14 @@
+To run the program:
+- download the program via IDE
+- run main class
+- enter the number of threads following the instructions in the console and press enter
+- enter a search word in the built index
+- to exit the program enter "programxit"
+
+To upload a project to GitHub:
+- install git on your OS;
+- in the settings section of Intelij IDE, go to the version control subsection
+- in the subsection “GitHub” write down the data of your account in GitHub (host github.com, login - your login on GitHub, password - password for entering the account on GitHub)
+- in the subsection “Git” we indicate the address of the utility git.exe
+- in the section of the “VCS” toolbar, select the subsection “Import Into Version Control” and in it select the “share project on GitHub”
+- confirm the list of files of the initial commit (enter the comment of the commit)
