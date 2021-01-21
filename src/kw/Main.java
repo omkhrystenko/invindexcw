@@ -53,7 +53,6 @@ public class Main {
     private static void createFilesList(Collection<Path> collection) {
         try (Stream<Path> writer = Files.walk(Paths.get("resources"))) {
             writer.filter(Files::isRegularFile).collect(Collectors.toCollection(() -> collection));
-
         } catch (IOException e) {
             e.printStackTrace();
         }
